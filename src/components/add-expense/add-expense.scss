@@ -1,0 +1,50 @@
+.add_expense {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  padding: 10px;
+  .expense_input {
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .expense_button {
+    text-align: center;
+    justify-self: center;
+    border: none;
+    background-color: #dbdbdb;
+    padding: 17px;
+    margin: 10px;
+    width: 200px;
+  }
+}
+
+.expenses_list {
+  ul {
+    list-style: none;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  li {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    align-items: center;
+    font-size: 17px;
+  }
+
+  .total {
+    font-size: 20px;
+  }
+
+  button {
+    width: 100px;
+    text-align: center;
+    margin-right: 5px;
+  }
+
+}
